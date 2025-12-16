@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Lista de productos:</h1>
+        <div class="controls">
+            <button id="ReloadBtn">
+                Recargar Datos</button>
+            <div id="statusMessage"></div>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table id="productsTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Fecha Creacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="5">
+                        Cargando Datos... </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
